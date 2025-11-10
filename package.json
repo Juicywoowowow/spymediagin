@@ -1,0 +1,41 @@
+{
+  "name": "openweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env TURBOPACK=1 tsx server.ts",
+    "dev:turbo": "cross-env TURBOPACK=1 tsx server.ts",
+    "build": "next build",
+    "build:turbo": "next build --turbo",
+    "start": "cross-env NODE_ENV=production tsx server.ts",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "gsap": "^3.13.0",
+    "next": "^16.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.181.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/three": "^0.181.0",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3"
+  }
+}
